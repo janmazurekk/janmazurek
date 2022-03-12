@@ -59,8 +59,8 @@ body {
     text-transform: uppercase;
     font-family: 'League Gothic', sans-serif;
     font-size: 18px;
-    margin-block-start: 0;
-    margin-block-end: 0;
+    margin: 0;
+    padding: 0;
   }
 
   .primary_menu ul li {
