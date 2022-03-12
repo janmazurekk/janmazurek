@@ -1,0 +1,82 @@
+body {
+  font-family: 'Fredoka', sans-serif;
+  margin: 0;
+  background-image: url("tlo.png");
+  background-repeat: repeat;
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: white;
+  }
+
+  header {
+    background-color: grey;
+    text-align: center;
+    height: 50px;
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  main {
+    margin: 20px;
+    padding: 20px;
+    border: 3px ridge;
+    background-color: white;
+  }
+
+  main img {
+    width: 400px; 
+    float: right; 
+    margin-left: 10px; 
+    border: 2px ridge;
+  }
+
+  .menu {
+    color: white;
+    background-color: black;
+    height: 40px;
+    border-bottom: 5px solid rgb(97, 97, 97);
+  }
+
+  .primary_menu {
+    display: block;
+    margin: 0px auto;
+    height: 40px;
+  }
+  
+  .primary_menu ul {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'League Gothic', sans-serif;
+    font-size: 18px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
+
+  .primary_menu ul li {
+    display: inline-block;
+    padding: 11px 20px;
+    *display : inline;
+    zoom:1;
+    transition: 0.3s;
+  }
+
+  .primary_menu ul li:hover {
+    background-color: rgb(97, 97, 97);
+  }
+
+  footer {
+    font-style: italic;
+    text-align: right;
+    margin-right: 20px;
+  }
